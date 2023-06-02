@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap');
+
+
+body {
+font-family: "Roboto";
+font-size: 17px;
+margin: 0px;
+background-color: #E6E4E4;
+}
+h1, h2 {
+font-family: "Time New Roman";
+font-weight: bold;
+
+}
+a {
+text-decoration: none;
+}
+
+
+.avatar {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+
+
+.banner {
+background-image: linear-gradient(20deg, rgba(0,0,0,0.9) 0%, rgba(0, 0, 0, 0.4) 50%), url(https://generations.fr/media/news/thumb/1110x624_62023f247ac49-programmation-418149.webp);
+color: white;
+padding: 150px 0px;
+background-size: cover;
+}
+
+.banner h1 {
+font-size: 50px;
+}
+
+.banner h2 {
+font-size: 30px;
+font-weight: lighter;
+opacity: 0.8;
+margin-bottom: 40px;
+}
+
+
+.btn-blue {
+background-color: #151862;
+padding: 15px 20px;
+border-radius: 4px;
+color: white;
+font-weight: bold;
+font-family: "Roboto";
+}
+
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+border-radius: 6px;
+margin: 10px 0px;
+flex-basis: 250px;
+flex-grow: 1;
+}
+
+.card img {
+width: 150px;
+border-radius: 6px;
+}
+
+.card h3 {
+flex-grow: 1;
+padding-left: 20px;
+font-size: 18px;
+}
+
+
+.container {
+width: 700px;
+margin: 80px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
